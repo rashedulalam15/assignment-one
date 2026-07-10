@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+section{
+    padding: 50px 8%;
+}
+
 /* shared styles */
 .inter-font {
   font-family: "Inter", sans-serif;
@@ -65,3 +69,47 @@
     font-size: 18px;
     font-weight: bold;
 }
+
+/* speakers section styles */
+
+.speakers h1{
+    text-align: center;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    border-radius: 18px;
+    margin-top: 20px;
+    
+}
+.card-container img{
+    
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    
+}
+.card{
+    border-radius: 12px;
+    box-shadow: 2px 2px #ffffff;
+}
+
+.card-details{
+    padding: 20px;
+}
+.track-label{
+    font-size: 10px;
+    color:#2563EB;
+    margin-bottom: 5px;
+}
+
+.speaker-title{
+    font-size: 12px;
+    color: #575757;
+    margin-top: 5px ;
+}
+
