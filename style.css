@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* shared styles */
+.inter-font{
+    font-family: "Inter", sans-serif;
+}
+.btn-primary{
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    border-radius: 12px;
+    border: none;
+}
+
+/* nav styles */
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: #FFFFFF;
+    
+}
+
+.nav-container ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-container a{
+    text-decoration: none;
+    color: #575757;
+}
