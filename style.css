@@ -91,9 +91,9 @@ section {
   border-top-right-radius: 12px;
 }
 .card {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 12px;
-  box-shadow: 1px 1px #E5E7EB;
+  box-shadow: 1px 1px #e5e7eb;
 }
 
 .card-details {
@@ -158,81 +158,100 @@ hr {
   border: 1px solid #2563eb;
   color: #2563eb;
 }
-#pro{
-    background-color: #0D1B2A;
-    color: #ffffff;
+#pro {
+  background-color: #0d1b2a;
+  color: #ffffff;
 }
-#pro hr{
-    color: rgba(255, 255, 255, 0.1);
+#pro hr {
+  color: rgba(255, 255, 255, 0.1);
 }
-#pro p{
-    color: rgba(255, 255, 255, 0.8);
+#pro p {
+  color: rgba(255, 255, 255, 0.8);
 }
-#pro ul li{
-    color: rgba(255, 255, 255, 0.8);
+#pro ul li {
+  color: rgba(255, 255, 255, 0.8);
 }
-#btn-pro{
-    background-color: #2563EB;
-    color: #ffffff;
-
+#btn-pro {
+  background-color: #2563eb;
+  color: #ffffff;
 }
-#btn-contact{
-      width: 100%;
+#btn-contact {
+  width: 100%;
   padding: 10px;
   margin-top: 12px;
   border-radius: 8px;
   border: none;
-  border: 1px solid #0D1B2A;
-  color: #0D1B2A;
+  border: 1px solid #0d1b2a;
+  color: #0d1b2a;
 }
-#plan-label{
-    color: #93C5FD;
+#plan-label {
+  color: #93c5fd;
 }
 
 /* newsletter styles */
-.newsletter-bg{
-  background-color: #E5E7EB;
+.newsletter-bg {
+  background-color: #e5e7eb;
   display: grid;
   justify-content: center;
   text-align: center;
-  
 }
-.newsletter-bg h4{
+.newsletter-bg h4 {
   margin-bottom: 12px;
   color: #575757;
 }
-.newsletter-bg p{
+.newsletter-bg p {
   margin: 18px 0;
   font-size: 14px;
   color: #575757;
 }
-.newsletter-bg input{
+.newsletter-bg input {
   margin-right: 8px;
   padding: 18px 40px;
   border-radius: 8px;
   border: none;
-  
 }
-.input{
+.input {
   position: relative;
   margin-top: 18px;
 }
-.input button{
-   background-color: #1d4ed8;
+.input button {
+  background-color: #1d4ed8;
   color: #ffffff;
- padding: 18px 30px;
-  
+  padding: 18px 30px;
+
   border: none;
   border-radius: 8px;
 }
-#emial-icon{
+#emial-icon {
   position: absolute;
   left: 34px;
-  bottom: 18px; 
+  bottom: 18px;
 }
 
-
 /* footer section styles */
-.footer-bg{
-  background-color: #0D1B2A;
+.footer-bg {
+  background-color: #0d1b2a;
+  color: #e5e7eb;
+}
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.right {
+  text-align: right;
+}
+.right h3 {
+  margin-bottom: 12px;
+  margin-right: 40px;
+}
+
+.rights p {
+  padding-top: 18px;
+  text-align: center;
+}
+.social-media a {
+  color: #e5e7eb;
+  margin-left: 12px;
 }
