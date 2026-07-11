@@ -81,7 +81,7 @@ section {
   grid-template-columns: repeat(2, 1fr);
   gap: 18px;
   border-radius: 18px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .card-container img {
   width: 100%;
@@ -91,8 +91,9 @@ section {
   border-top-right-radius: 12px;
 }
 .card {
+  background-color: #FFFFFF;
   border-radius: 12px;
-  box-shadow: 2px 2px #ffffff;
+  box-shadow: 1px 1px #E5E7EB;
 }
 
 .card-details {
@@ -186,4 +187,52 @@ hr {
 }
 #plan-label{
     color: #93C5FD;
+}
+
+/* newsletter styles */
+.newsletter-bg{
+  background-color: #E5E7EB;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  
+}
+.newsletter-bg h4{
+  margin-bottom: 12px;
+  color: #575757;
+}
+.newsletter-bg p{
+  margin: 18px 0;
+  font-size: 14px;
+  color: #575757;
+}
+.newsletter-bg input{
+  margin-right: 8px;
+  padding: 18px 40px;
+  border-radius: 8px;
+  border: none;
+  
+}
+.input{
+  position: relative;
+  margin-top: 18px;
+}
+.input button{
+   background-color: #1d4ed8;
+  color: #ffffff;
+ padding: 18px 30px;
+  
+  border: none;
+  border-radius: 8px;
+}
+#emial-icon{
+  position: absolute;
+  left: 34px;
+  bottom: 18px; 
+}
+
+
+/* footer section styles */
+.footer-bg{
+  background-color: #0D1B2A;
 }
